@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiro al Blanco - Juego de Precisión</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="login">
+    <h1>TIRO AL BLANCO</h1>
+    <form id="login-form">
+      <input type="text" id="codigo" placeholder="Ingresa el codigo" required>
+      <button type="submit">JUGAR</button>
+    </form>
+  </div>
+
+  <div id="juego">
+    <div class="datos">
+      <div class="nivel">Nivel: 1</div>
+      <div class="puntos">Puntos: 0</div>
+      <div class="tiempo">Tiempo: 0s</div>
+      <div class="objetivos">Objetivos: 0</div>
+    </div>
+    <div class="zona-juego"></div>
+
+    <div class="inicio"></div>
+    <div class="fin-nivel"></div>
+    <div class="fin-juego"></div>
+  </div>
+
+  <script src="login.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
